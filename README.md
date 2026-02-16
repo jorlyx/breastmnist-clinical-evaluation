@@ -47,7 +47,7 @@ Evaluation metrics:
 - Accuracy
 - ROC curve
 - AUC
-- Confusion matriz
+- Confusion matrix
 
 ---
 
