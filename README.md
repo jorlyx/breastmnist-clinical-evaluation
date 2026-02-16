@@ -75,6 +75,19 @@ Improved separability allows greater flexibility in threshold selection, directl
 
 ---
 
+## Limitations
+
+- The dataset is small and preprocessed, limiting statistical robustness.
+- Class imbalance may influence decision threshold behaviour.
+- No external validation cohort was used.
+- Images are low-resolution (28×28) compared to real mammography systems.
+- No bias or demographic subgroup analysis was conducted.
+- Mode was not evaluated within a clinical deployment environment
+
+These factors limit direct clinical applicability and highlight the gap between benchmark performance and real-world deployment.
+
+---
+
 ## Reproducibility
 
 To run locally: Create and activate a virtual environment, then install dependencies:
