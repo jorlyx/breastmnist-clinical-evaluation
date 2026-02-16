@@ -9,7 +9,7 @@ The workflow includes
 - Baseline linear modelling (Logistic Regression)
 - Convolutional Neural Network implementation
 - Proper train / validation / test separation
-- Evaluation using ROC curves, AUC, and confusion matrices
+- Evaluation using ROC curves, AUC, and confusion matrices and probability calibration to assess reliability of predicted risk estimates
 
 The emphasis is on reproducibility, metric interpretation, and clinical-style evaluation rather than maximising raw accuracy.
 
@@ -66,6 +66,10 @@ Evaluation metrics:
 
 ![ROC - CNN](results/roc_cnn_test.png)  
 ![Confusion Matrix - CNN](results/cm_cnn_test.png)
+
+### Calibration Analysis
+
+![Curve - Calibration](results/calibration_cnn_test.png)
 
 ## Clinical Interpretation
 
