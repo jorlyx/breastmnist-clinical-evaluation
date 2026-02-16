@@ -38,3 +38,7 @@ pip install -r requirements.txt,
 ### CNN Model
 ![ROC - CNN](results/roc_cnn_test.png)
 ![Confusion Matrix - CNN](results/cm_cnn_test.png)
+
+## Interpretation
+
+Although accuracy improved modestly, the primary gain was in AUC, indicating improved ranking quality and reduced overlap between classes. This is particularly relevant in clinical contexts where threshold selection impacts false positive / false negative trade-offs.
